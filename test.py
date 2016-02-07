@@ -1,4 +1,6 @@
 import RPi.GPIO as GPIO
+GPIO.setmode(GPIO.BOARD)
+
 GPIO.output(18, GPIO.HIGH)
 GPIO.input(18)  # returns 1
 
