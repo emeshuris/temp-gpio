@@ -8,6 +8,6 @@ GPIO.setup(18,GPIO.OUT)
 GPIO.output(18,GPIO.HIGH)
 
 #lights on
-#GPIO.output(18,GPIO.LOW)
+GPIO.output(18,GPIO.LOW)
 
-GPIO.input(18)
+print GPIO.input(18)
